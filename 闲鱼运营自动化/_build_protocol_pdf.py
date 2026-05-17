@@ -121,8 +121,8 @@ CSS_TEXT = """
 
 html, body {
   font-family: "Noto Sans CJK SC", "Noto Sans", sans-serif;
-  font-size: 13pt;
-  line-height: 1.85;
+  font-size: 15pt;
+  line-height: 1.95;
   color: #1f2937;
   margin: 0;
   padding: 0;
@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5 {
   font-weight: 800;
 }
 h1 {
-  font-size: 26pt;
+  font-size: 30pt;
   border-bottom: 4px solid #4527a0;
   padding-bottom: 10pt;
   margin-top: 30pt;
@@ -147,7 +147,7 @@ h1 {
 }
 .content h1:first-child { page-break-before: auto; }
 h2 {
-  font-size: 20pt;
+  font-size: 23pt;
   border-left: 6px solid #4527a0;
   padding-left: 14pt;
   margin-top: 28pt;
@@ -155,18 +155,18 @@ h2 {
   color: #311b92;
 }
 h3 {
-  font-size: 16pt;
+  font-size: 18.5pt;
   margin-top: 22pt;
   margin-bottom: 10pt;
   color: #4527a0;
 }
 h4 {
-  font-size: 14pt;
+  font-size: 16pt;
   color: #333;
   margin-top: 18pt;
 }
 h5 {
-  font-size: 13pt;
+  font-size: 14.5pt;
   color: #555;
 }
 
@@ -181,12 +181,12 @@ blockquote {
   padding: 12pt 18pt;
   margin: 14pt 0;
   color: #1f2937;
-  font-size: 12.5pt;
+  font-size: 14.5pt;
 }
 
 code {
   font-family: "Noto Sans Mono CJK SC", "Courier New", monospace;
-  font-size: 11pt;
+  font-size: 13pt;
   background: #f3e5f5;
   color: #4527a0;
   padding: 2pt 6pt;
@@ -198,8 +198,8 @@ pre {
   padding: 14pt 16pt;
   border-radius: 6pt;
   overflow-x: auto;
-  font-size: 10.5pt;
-  line-height: 1.6;
+  font-size: 12pt;
+  line-height: 1.7;
   page-break-inside: avoid;
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -209,23 +209,23 @@ pre code {
   background: none;
   color: inherit;
   padding: 0;
-  font-size: 10.5pt;
+  font-size: 12pt;
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
   margin: 14pt 0;
-  font-size: 11.5pt;
+  font-size: 13.5pt;
   page-break-inside: avoid;
 }
 th {
   background: #4527a0;
   color: #fff;
-  padding: 9pt 10pt;
+  padding: 10pt 12pt;
   text-align: left;
   border: 1px solid #4527a0;
-  font-size: 12pt;
+  font-size: 14pt;
   font-weight: 700;
 }
 td {
